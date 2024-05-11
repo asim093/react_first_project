@@ -1,0 +1,45 @@
+/* navbar.module.css */
+
+
+.icon{
+    color: black !important;
+    background-color: antiquewhite;
+    /* background-color: aliceblue; */
+}
+
+
+.glass {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient( rgba(33, 37, 41, 1), rgba(0, 0, 0, 0.1)); /* Apply gradient for glass effect */
+    backdrop-filter: blur(50px);
+    line-height: 24px;
+    padding: 10px;
+    z-index: 100;
+    overflow-x: hidden;
+}
+
+.navbarbrand {
+    width: 20%;
+}
+
+.navbarbrand img {
+    max-width: 180px;
+}
+
+.navlink {
+    color: white;
+    transition: 0.3s;
+}
+.navlink:hover{
+    color: #dd4242;
+}
+
+@media screen and (max-width: 768px) {
+    .glass{
+        overflow-x: hidden !important;
+
+    }
+}

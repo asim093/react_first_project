@@ -1,0 +1,38 @@
+
+
+.mainparent{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.cardlink{
+    padding: 200px 0px 60px  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .cardlink button{
+        height: 3rem;
+        padding: 10px;
+        background-color: transparent;
+        color: #a9afc3;
+      border: 1px solid #2b30b9;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .cardlink button:hover{
+        background-color: #2b30b9;
+        color: white;
+    }
+
+    .cardcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }

@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+hr {
+    height: 3px;
+    color: rgb(181, 176, 176) !important; /* Change the color of the horizontal rule to blue */
+}
+
+h3{
+    padding: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+/* footer.module.css */
+
+.footer {
+    flex-wrap: wrap;
+    background-color: black;
+    color: #fff;
+  
+  }
+  
+  .footerlink {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0rem 3rem 2rem;
+  }
+  
+  .footerlink ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  
+
+  .footerlink img{
+    height: auto;
+    width: 80%;
+  }
+  
+  .footerlink ul li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .footerlink ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footerlink ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerlink ul li a:hover {
+    color: #ccc;
+  }
+  

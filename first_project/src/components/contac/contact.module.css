@@ -1,0 +1,108 @@
+/* CSS */
+
+.contactmain {
+    position: relative; /* Make sure the position is relative */
+    background-image: url(../../assets/contact-bg.8cb2f02a4a6c5d07bf3c.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 35rem;
+    padding: 100px 0px;
+}
+
+/* Overlay to dim the background image */
+.contactmain::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Decrease opacity for more dimness */
+}
+
+.contactmain h1 {
+    position: relative; /* Ensure z-index works properly */
+    text-align: center;
+    color: #dd4242;
+    padding: 0px 300px;
+    z-index: 1; /* Ensure text appears above overlay */
+}
+
+.main input {
+    height: 3.2rem;
+    background-color: #1c1b1b80;
+}
+
+.main input::placeholder{
+    color: white;
+}
+.main input:focus{
+    background-color: #1c1b1b80 !important ;
+}
+
+textarea{
+    background-color: rgba(28, 27, 27, 0.5) !important;
+    height: 12rem;
+
+}
+
+textarea::placeholder{
+    color: white !important;
+}
+
+form button{
+    background-color: white !important;
+    color: black !important;
+    padding: 5px 40px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 576px) {
+    .contactmain {
+        padding: 50px 0px; 
+    }
+
+    .contactmain h1 {
+        padding: 0px 20px; 
+    }
+    .main{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .main input
+     {
+        height: 2.5rem; 
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    form button {
+        padding: 5px 20px !important; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 998px) {
+    .container {
+        width: 80%; 
+    }
+
+    .contactmain h1{
+        padding: 10px 40px;
+    }
+
+
+}

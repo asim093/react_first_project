@@ -1,0 +1,85 @@
+.cardhead{
+    width: 100%;
+    height: 18rem;
+    border: 1px solid black;
+    background-color: #080a12;
+}
+
+.cardfirst{
+color: white;
+font-size: 1rem;
+}
+
+.dollarsign , .zeros{
+    color: white;
+}
+
+.price h1{
+color: white;
+font-size: 3.5rem;
+}
+
+.price p{
+    color: white;
+}
+
+.cardbody{
+    background-color:#080a12;
+    overflow: auto;
+    height: 28rem;
+    border-color: #080a12;
+}
+
+.cardbody h2{
+font-size: 1rem;
+margin-top: 30px;
+text-align:center ;
+color: white;
+}
+
+.card {
+    position: relative;
+    width: 22rem;
+    transition: transform 0.3s ease; 
+    margin-top: 100px;
+}
+
+.card:hover {
+    transform: translateY(-35px); /* Move the card up when hovered */
+}
+
+.card:hover .cardhead{
+    background-color: #dd4242;
+}
+
+.card button{
+    height: 5rem;
+    background-color: #080a12;
+    border: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.card button:hover{
+    color: #dd4242;
+}
+.cardbody::-webkit-scrollbar {
+    width: 8px; 
+}
+
+/* Track */
+.cardbody::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+.cardbody::-webkit-scrollbar-thumb {
+    background: #dd4242; 
+    border-radius: 4px; 
+}
+
+/* Handle on hover */
+.cardbody::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
